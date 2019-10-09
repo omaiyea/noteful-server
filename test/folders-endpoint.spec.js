@@ -1,7 +1,7 @@
 const knex = require('knex');
 const app = require('../src/app');
 
-const { makeFoldersArray, makeNewFolder, makeUpdatedFolder, makeFakeFolder } = require('./folders.fixtures');
+const { makeFoldersArray, makeNewFolder, makeUpdatedFolder, makeFakeFolder } = require('./fixtures/folders.fixtures');
 
 describe('Folders Endpoints', function() {
     let db;

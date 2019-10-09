@@ -17,7 +17,7 @@ const NotesService = {
          .select('*')
          .from('notes')
          .where('note_id', noteId)
-         .first();
+         .first(); //get note itself
     },
     deleteNote(knex, noteId){
         return knex('notes')
