@@ -20,7 +20,7 @@ Note: This is similar to the inital home view, which shows all notes regardless 
 <img src="https://github.com/omaiyea/noteful/blob/master/screenshots/add-folder.png?raw=true" alt="new folder screenshot">
 
 # Preview App 
-https://noteful.omaiyea.now.sh
+https://build.omaiyea.now.sh/
 
 ## Future Server Enhancements
 * Reset database on load. Currently data is persisted but since the server is used on a demo site, it might get messy. 
