@@ -1,8 +1,26 @@
 # Noteful Server
-Noteful is an app that can be found here: https://github.com/omaiyea/noteful
-
-## Motivation
-The Noteful app currently relies on an external server. This project will replace that server. 
+Noteful lets users manage and organize their notes, which are stored on an external server. This repo provides that server. 
+(app can be found here: https://github.com/omaiyea/noteful)
 
 ## Built With
-React, Node, Express, Chai, Supertest, HTML, CSS, JavaScript
+Node, Express, Chai, Supertest
+
+## Screenshots
+#### View notes within a given folder:
+Note: This is similar to the inital home view, which shows all notes regardless of folder
+<img src="https://github.com/omaiyea/noteful/blob/master/screenshots/notes-view.png?raw=true" alt="notes in folder screenshot">
+
+#### Add a new note:
+<img src="https://github.com/omaiyea/noteful/blob/master/screenshots/add-note.png?raw=true" alt="new note screenshot">
+
+#### View the contents of a note:
+<img src="https://github.com/omaiyea/noteful/blob/master/screenshots/note-details.png?raw=true" alt="note content screenshot">
+
+#### Add a new folder to store notes: 
+<img src="https://github.com/omaiyea/noteful/blob/master/screenshots/add-folder.png?raw=true" alt="new folder screenshot">
+
+# Preview App 
+https://noteful.omaiyea.now.sh
+
+## Future Server Enhancements
+* Reset database on load. Currently data is persisted but since the server is used on a demo site, it might get messy. 
