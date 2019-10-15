@@ -5,7 +5,7 @@ Noteful lets users manage and organize their notes, which are stored on an exter
 ## Built With
 Node, Express, Chai, Supertest
 
-## Screenshots
+## App Screenshots
 #### View notes within a given folder:
 Note: This is similar to the inital home view, which shows all notes regardless of folder
 <img src="https://github.com/omaiyea/noteful/blob/master/screenshots/notes-view.png?raw=true" alt="notes in folder screenshot">
